@@ -12,3 +12,9 @@
 1. Ejecutar `crear_usuario.sql` como `SYSTEM`.
 2. Ejecutar scripts de tablas y datos como `biblioteca`.
 3. Compilar y ejecutar la app Java con el driver JDBC.
+
+🚀 Novedades en esta entrega 2
+Índices: Se crearon índices en Prestamo.id_socio y Prestamo.fecha_prestamo para optimizar el rendimiento de consultas frecuentes.
+Transacciones: Se implementó manejo correcto de transacciones en operaciones como INSERT y UPDATE para garantizar la integridad de los datos.
+CRUD desde Java: Se añadieron operaciones completas de creación, lectura, actualización y eliminación directamente desde la aplicación.
+Interfaz mejorada: Ahora es más fácil seleccionar libros por número en lugar de ingresar ISBN manualmente.
