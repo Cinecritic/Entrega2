@@ -1,0 +1,2 @@
+ALTER TABLE Socio ADD CONSTRAINT uk_email UNIQUE (email);
+ALTER TABLE Libro ADD CONSTRAINT chk_anio CHECK (anio_publicacion BETWEEN 1800 AND 2025);
